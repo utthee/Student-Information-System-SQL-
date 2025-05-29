@@ -269,7 +269,7 @@ class MainClass(QMainWindow, Ui_MainWindow):
     def deleteCollegeSuccess(self):
         deleteCollegeSuccessMsg = QtWidgets.QMessageBox(self)
         deleteCollegeSuccessMsg.setWindowTitle("Delete Success")
-        deleteCollegeSuccessMsg.setText(f"The college has been successfully deleted. {self.programCount} program(s) were deleted. {self.studentCount} student(s) were affected.")
+        deleteCollegeSuccessMsg.setText(f"The college has been successfully deleted. {self.programCount} program(s) were affected. {self.studentCount} student(s) were affected.")
         deleteCollegeSuccessMsg.setIcon(QtWidgets.QMessageBox.Information)
         deleteCollegeSuccessMsg.exec_()
 
